@@ -7,6 +7,9 @@ You should have `git`, `python`, `astropy`, `lmfit` installed in order to run al
 
 ## Quick start
 1. Clone the git directory to your local storage area.
+```python
+git clone https://github.com/lennartvansluijs/spectroscopic-transit-search < local folder >
+```
 
 
 ## Citing this code

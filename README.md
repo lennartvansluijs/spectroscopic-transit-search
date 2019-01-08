@@ -1,6 +1,10 @@
 # Spectroscopic Transit Search
 
-These are Python tools for a Spectroscopic Transit Search, as detailed in van Sluijs et al. (2019). A copy of the paper, figures and final results are stored in the *paper* folder.
+These are Python tools for a Spectroscopic Transit Search, as detailed in van Sluijs et al. (2019).
+
+A copy of the paper, figures and final results are stored in the paper folder.
+The data folder contains the raw data files used to generate the Figures.
+The scripts folder contains the Python scripts to generate and plot the Figures.
 
 ## Dependencies
 You should have `git`, `python`, `astropy`, `lmfit` installed in order to run all Python scripts. Some C++ code is used as well and should be compiled using a C++ compiler as `g++`.

@@ -1,9 +1,9 @@
 # Spectroscopic Transit Search
 
 These are Python tools for a Spectroscopic Transit Search, as detailed in ... . This github repository contains the following repositories:
-* [figures](https://github.com/lennartvansluijs/spectroscopic-transit-search/paper) contains the final Figures
-* [data](https://github.com/lennartvansluijs/spectroscopic-transit-search/data) contains the spectral data of Beta Pictoris
-* [scripts](https://github.com/lennartvansluijs/spectroscopic-transit-search/paper) contains the Python scripts used to create the plots
+* [figures](https://github.com/lennartvansluijs/spectroscopic-transit-search/tree/master/figures) contains the final Figures
+* [data](https://github.com/lennartvansluijs/spectroscopic-transit-search/tree/master/data) contains the spectral data of Beta Pictoris
+* [scripts](https://github.com/lennartvansluijs/spectroscopic-transit-search/tree/master/scripts) contains the Python scripts used to create the plots
 
 ## Dependencies
 You should have `git`, `python`, `astropy`, `lmfit` installed in order to run all Python scripts. Some C++ code is used as well and should be compiled using a C++ compiler as `g++`.

@@ -1,1 +1,5 @@
 /output
+/scripts/__pycache__
+/scripts/.ipynb_checkpoints
+/scripts/utils.o
+/scripts/utils.so

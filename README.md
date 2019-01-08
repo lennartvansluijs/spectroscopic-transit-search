@@ -1,6 +1,6 @@
 # Spectroscopic Transit Search
 
-These are Python tools for a Spectroscopic Transit Search, as detailed in van Sluijs et al. (2019). This github repository contains the following repositories:
+These are Python tools for a Spectroscopic Transit Search, as detailed in ... . This github repository contains the following repositories:
 * [figures](https://github.com/lennartvansluijs/spectroscopic-transit-search/paper) contains the final Figures
 * [data](https://github.com/lennartvansluijs/spectroscopic-transit-search/data) contains the spectral data of Beta Pictoris
 * [scripts](https://github.com/lennartvansluijs/spectroscopic-transit-search/paper) contains the Python scripts used to create the plots

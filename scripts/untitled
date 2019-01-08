@@ -1,0 +1,24 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Author:
+    Lennart van Sluijs
+Date:
+    Dec 21 2018
+Description:
+    Run this script to generate Figure 1.
+"""
+
+import numpy as np
+from pir_class import *
+from sts_class import *
+
+# initialize from lineprofile cuts of the observational data
+# by the UVES spectograph.
+sts = SpectralTimeSeries()
+sts.init_from_obs('../data', '../output/figure1/sts_init')
+sts.remove_NaN()
+sts.save('../output/figure1/sts_data', 'sts')
+
+# reload spectral time series
+sts = SpectralTimeSeries() 

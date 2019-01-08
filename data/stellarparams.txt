@@ -1,0 +1,20 @@
+# stellar parameters
+# https://en.wikipedia.org/wiki/Main_sequence
+# https://www.aanda.org/articles/aa/pdf/2013/09/aa21912-13.pdf
+# 1 spectral type 2 radius [solRad] 3 mass [solMass] 4 v sin i [km/s] 5 Temp [K]
+#B0 7.4 18 200 20000
+#B5 3.8 6.5 188 16400
+#A0 2.5 3.2 114 10800
+#A5 1.7 2.1 109 8620
+#F0 1.3 1.7 48 7240
+#F5 1.2 1.3 17 6540
+#
+# updated with values from http://www.pas.rochester.edu/~emamajek/EEM_dwarf_UBVIJHK_colors_Teff.txt
+# Eric Mamajek
+#
+B0 7.53 17.5 200 31500
+B5 4.6 3.40 188 15700
+A0 2.3 2.09 114 9700
+A5 1.94 1.85 109 8080
+F0 1.79 1.59 48 7220
+F5 1.46 1.33 17 6510

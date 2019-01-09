@@ -6,7 +6,7 @@ These are Python tools for a Spectroscopic Transit Search, as detailed in ... . 
 * [scripts](https://github.com/lennartvansluijs/spectroscopic-transit-search/tree/master/scripts) contains the Python scripts used to create the plots
 
 ## Dependencies
-You should have `git`, `python`, `astropy`, `lmfit` installed in order to run all Python scripts. Some C++ code is used as well and should be compiled using a C++ compiler as `g++`.
+You should have `git`, `python`, `astropy`, `lmfit` (Figure 7 only) installed in order to run all Python scripts. All scripts were written using Python 3. Some C++ code is used as well and should be compiled using a C++ compiler as `g++`.
 
 ## Quick start
 1. Clone the git directory to your local storage area.

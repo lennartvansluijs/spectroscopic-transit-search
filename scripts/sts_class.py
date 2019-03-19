@@ -90,7 +90,6 @@ class SpectralTimeSeries:
         # load data from files
         fpath = os.path.join(inputfolder, fname)
         self.datacube = fits.getdata(fpath + '.fits')
-        self.datacube_all_lines = fits.getdata(fpath + '_all_lines.fits')
         self.time = np.loadtxt(fpath + '_time.txt')
         self.obsid = np.loadtxt(fpath + '_obsid.txt').astype(int).astype(str)
         self.radvel = np.loadtxt(fpath + '_radvel.txt')
@@ -112,7 +111,6 @@ class SpectralTimeSeries:
         # save data to files
         fpath = os.path.join(outputfolder, fname)
         wfits(fpath + '.fits', self.datacube)
-        wfits(fpath + '_all_lines.fits', self.datacube_all_lines)
         np.savetxt(fpath + '_time.txt', self.time)
         np.savetxt(fpath + '_radvel.txt', self.radvel)
         np.savetxt(fpath + '_obsid.txt', self.obsid, fmt="%s")

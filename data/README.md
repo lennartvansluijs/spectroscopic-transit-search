@@ -9,5 +9,5 @@ This repository contains the following files:
 * **sts_obsid_dict.npy** dictionary of observation IDs
 * **sts_radvel** list of radial velocities on first dimension of sts.fits [km/s]
 * **sts_time** list of timestamps on second dimension of sts.fits [JD]
-
+* **brightstars.txt** list of V < 4 stars surveyed by Hipparcos
 

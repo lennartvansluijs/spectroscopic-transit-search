@@ -1,6 +1,6 @@
 # Spectroscopic Transit Search
 
-These are Python tools for a Spectroscopic Transit Search, as detailed in ... . This github repository contains the following repositories:
+These are Python tools for a Spectroscopic Transit Search, as detailed in [this paper](https://arxiv.org/abs/1903.08186). This github repository contains the following repositories:
 * [figures](https://github.com/lennartvansluijs/spectroscopic-transit-search/tree/master/figures) contains the final Figures
 * [data](https://github.com/lennartvansluijs/spectroscopic-transit-search/tree/master/data) contains the spectral data of Beta Pictoris
 * [scripts](https://github.com/lennartvansluijs/spectroscopic-transit-search/tree/master/scripts) contains the Python scripts used to create the plots
@@ -25,12 +25,6 @@ jupyter notebook plot_fig1.ipynb
 jupyter notebook plot_fig2.ipynb
 ...
 ```
-
-## Citing this code
-
-The code is registered at the [ASCL](http://ascl.net/) at
-[...](...) and should be cited in papers
-as: ...
 
 ## License
 
